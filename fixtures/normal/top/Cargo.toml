@@ -1,9 +1,9 @@
 [package]
 name = "top"
-version = "0.1.0"
+version = "0.1.1-alpha.0"
 authors = ["Pavan Kumar Sunkara <pavan.sss1991@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-dep = { version = "0.1.0", path = "../dep1", package = "dep1" }
-dep2 = { version = "0.1.0", path = "../dep2" }
+dep = { version = "0.1.1-alpha.0", path = "../dep1", package = "dep1" }
+dep2 = { version = "0.1.1-alpha.0", path = "../dep2" }
